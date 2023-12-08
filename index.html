@@ -24,44 +24,47 @@
         <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
     <body>
-        <main style="height: 10000px">
-            <!-- Header -->
-            <header class="header fixed">
-                <div class="main-content">
-                    <div class="body">
-                        <!-- Logo -->
-                        <a href="#!">
-                            <img
-                                src="./assets/img/logo.svg"
-                                alt="Lesson."
-                                class="logo"
-                            />
-                        </a>
-                        <!-- Navbar -->
-                        <nav class="nav">
-                            <ul>
-                                <li class="active">
-                                    <a href="#!">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Courses</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Pricing</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Reviews</a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <!-- Action -->
-                        <div class="action">
-                            <a href="#!" class="btn sign-up-btn">Sign Up</a>
-                        </div>
+        <!-- Header -->
+        <header class="header fixed">
+            <div class="main-content">
+                <div class="body">
+                    <!-- Logo -->
+                    <a href="#">
+                        <img
+                            src="./assets/img/logo.svg"
+                            alt="Lesson."
+                            class="logo"
+                        />
+                    </a>
+                    <!-- Navbar -->
+                    <nav class="nav">
+                        <ul>
+                            <li class="active">
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#course">Courses</a>
+                            </li>
+                            <li>
+                                <a href="#review">Reviews</a>
+                            </li>
+                            <li>
+                                <a href="#feature">Features</a>
+                            </li>
+                            <li>
+                                <a href="#blog">Blogs</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- Action -->
+                    <div class="action">
+                        <a href="#!" class="btn sign-up-btn">Sign Up</a>
                     </div>
                 </div>
-            </header>
+            </div>
+        </header>
 
+        <main>
             <!-- Hero -->
             <div class="hero">
                 <div class="main-content">
@@ -145,7 +148,7 @@
             </div>
 
             <!-- Popular -->
-            <div class="popular">
+            <div id="course" class="popular">
                 <div class="main-content">
                     <!-- Popular Top -->
                     <div class="popular-top">
@@ -170,7 +173,7 @@
                         <div class="course-item">
                             <a href="#!">
                                 <img
-                                    src="./assets/img/test1.jpg"
+                                    src="./assets/img/course-1.png"
                                     alt="Basic web design"
                                     class="thumb"
                                 />
@@ -207,7 +210,7 @@
                         <div class="course-item">
                             <a href="#!">
                                 <img
-                                    src="./assets/img/test2.jpg"
+                                    src="./assets/img/course-2.png"
                                     alt=""
                                     class="thumb"
                                 />
@@ -244,7 +247,7 @@
                         <div class="course-item">
                             <a href="#!">
                                 <img
-                                    src="./assets/img/test3.jpg"
+                                    src="./assets/img/course-3.png"
                                     alt=""
                                     class="thumb"
                                 />
@@ -283,14 +286,14 @@
             </div>
 
             <!-- Feedback -->
-            <div class="feedback">
+            <div id="review" class="feedback">
                 <div class="main-content">
                     <div class="feedback-list">
                         <!-- Feedback Item 1 -->
                         <div class="feedback-item">
                             <div class="info">
                                 <img
-                                    src="./assets/img/avatar-1.jpg"
+                                    src="./assets/img/avatar.svg"
                                     alt="Peter Moor"
                                     class="avatar"
                                 />
@@ -387,17 +390,17 @@
             </div>
 
             <!-- Features 1 -->
-            <div class="features">
+            <div id="feature" class="features">
                 <div class="main-content">
                     <div class="body">
                         <div class="images">
                             <img
-                                src="./assets/img/feature-1.jpg"
+                                src="./assets/img/feature-01.jpg"
                                 alt=""
                                 class="image"
                             />
                             <img
-                                src="./assets/img/feature-2.jpg"
+                                src="./assets/img/feature-02.jpg"
                                 alt=""
                                 class="image"
                             />
@@ -424,7 +427,7 @@
                     <div class="body">
                         <div class="images">
                             <img
-                                src="./assets/img/feature-3.jpg"
+                                src="./assets/img/feature-03.png"
                                 alt=""
                                 class="image"
                             />
@@ -444,6 +447,301 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Blog -->
+            <div id="blog" class="blog">
+                <div class="main-content">
+                    <div class="blog-top">
+                        <h2 class="heading lv2">Our blog</h2>
+                        <p class="desc">
+                            Read our regular travel blog and know the latest
+                            update of tour and travel
+                        </p>
+                    </div>
+                    <!-- Blog List -->
+                    <div class="blog-list">
+                        <!-- Blog Item 1 -->
+                        <div class="item">
+                            <a href="#!"
+                                ><img
+                                    src="./assets/img/blog-1.png"
+                                    alt="How to become a pro web designer in 2022 and get remot job?"
+                                    class="thumb"
+                            /></a>
+                            <div class="info">
+                                <span class="date">21 November 2021</span>
+                                <h3 class="title">
+                                    <a href="#!"
+                                        >How to become a pro web designer in
+                                        2022 and get remot job?</a
+                                    >
+                                </h3>
+                                <a href="#!" class="btn">Read More</a>
+                            </div>
+                        </div>
+                        <!-- Blog Item 2 -->
+                        <div class="item">
+                            <a href="#!"
+                                ><img
+                                    src="./assets/img/blog-2.png"
+                                    alt="How to become a pro web designer in 2022 and get remot job?"
+                                    class="thumb"
+                            /></a>
+                            <div class="info">
+                                <span class="date">21 November 2021</span>
+                                <h3 class="title">
+                                    <a href="#!"
+                                        >How to become a pro web designer in
+                                        2022 and get remot job?</a
+                                    >
+                                </h3>
+                                <a href="#!" class="btn">Read More</a>
+                            </div>
+                        </div>
+                        <!-- Blog Item 3 -->
+                        <div class="item">
+                            <a href="#!"
+                                ><img
+                                    src="./assets/img/blog-3.png"
+                                    alt="How to become a pro web designer in 2022 and get remot job?"
+                                    class="thumb"
+                            /></a>
+                            <div class="info">
+                                <span class="date">21 November 2021</span>
+                                <h3 class="title">
+                                    <a href="#!"
+                                        >How to become a pro web designer in
+                                        2022 and get remot job?</a
+                                    >
+                                </h3>
+                                <a href="#!" class="btn">Read More</a>
+                            </div>
+                        </div>
+                        <!-- Blog Item 4 -->
+                        <div class="item">
+                            <a href="#!"
+                                ><img
+                                    src="./assets/img/blog-1.png"
+                                    alt="How to become a pro web designer in 2022 and get remot job?"
+                                    class="thumb"
+                            /></a>
+                            <div class="info">
+                                <span class="date">21 November 2021</span>
+                                <h3 class="title">
+                                    <a href="#!"
+                                        >How to become a pro web designer in
+                                        2022 and get remot job?</a
+                                    >
+                                </h3>
+                                <a href="#!" class="btn">Read More</a>
+                            </div>
+                        </div>
+                        <!-- Blog Item 5 -->
+                        <div class="item">
+                            <a href="#!"
+                                ><img
+                                    src="./assets/img/blog-2.png"
+                                    alt="How to become a pro web designer in 2022 and get remot job?"
+                                    class="thumb"
+                            /></a>
+                            <div class="info">
+                                <span class="date">21 November 2021</span>
+                                <h3 class="title">
+                                    <a href="#!"
+                                        >How to become a pro web designer in
+                                        2022 and get remot job?</a
+                                    >
+                                </h3>
+                                <a href="#!" class="btn">Read More</a>
+                            </div>
+                        </div>
+                        <!-- Blog Item 6 -->
+                        <div class="item">
+                            <a href="#!"
+                                ><img
+                                    src="./assets/img/blog-3.png"
+                                    alt="How to become a pro web designer in 2022 and get remot job?"
+                                    class="thumb"
+                            /></a>
+                            <div class="info">
+                                <span class="date">21 November 2021</span>
+                                <h3 class="title">
+                                    <a href="#!"
+                                        >How to become a pro web designer in
+                                        2022 and get remot job?</a
+                                    >
+                                </h3>
+                                <a href="#!" class="btn">Read More</a>
+                            </div>
+                        </div>
+                        <!-- Blog Item 7 -->
+                        <div class="item">
+                            <a href="#!"
+                                ><img
+                                    src="./assets/img/blog-1.png"
+                                    alt="How to become a pro web designer in 2022 and get remot job?"
+                                    class="thumb"
+                            /></a>
+                            <div class="info">
+                                <span class="date">21 November 2021</span>
+                                <h3 class="title">
+                                    <a href="#!"
+                                        >How to become a pro web designer in
+                                        2022 and get remot job?</a
+                                    >
+                                </h3>
+                                <a href="#!" class="btn">Read More</a>
+                            </div>
+                        </div>
+                        <!-- Blog Item 8 -->
+                        <div class="item">
+                            <a href="#!"
+                                ><img
+                                    src="./assets/img/blog-2.png"
+                                    alt="How to become a pro web designer in 2022 and get remot job?"
+                                    class="thumb"
+                            /></a>
+                            <div class="info">
+                                <span class="date">21 November 2021</span>
+                                <h3 class="title">
+                                    <a href="#!"
+                                        >How to become a pro web designer in
+                                        2022 and get remot job?</a
+                                    >
+                                </h3>
+                                <a href="#!" class="btn">Read More</a>
+                            </div>
+                        </div>
+                        <!-- Blog Item 9 -->
+                        <div class="item">
+                            <a href="#!"
+                                ><img
+                                    src="./assets/img/blog-3.png"
+                                    alt="How to become a pro web designer in 2022 and get remot job?"
+                                    class="thumb"
+                            /></a>
+                            <div class="info">
+                                <span class="date">21 November 2021</span>
+                                <h3 class="title">
+                                    <a href="#!"
+                                        >How to become a pro web designer in
+                                        2022 and get remot job?</a
+                                    >
+                                </h3>
+                                <a href="#!" class="btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dots">
+                        <span class="dot"></span>
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
         </main>
+
+        <footer class="footer">
+            <div class="main-content">
+                <div class="row">
+                    <div class="column">
+                        <img
+                            src="./assets/img/logo-2.svg"
+                            alt="Lesson."
+                            class="logo"
+                        />
+                        <p class="desc">
+                            Need to help for your dream Career? trust us. With
+                            Lesson, study becomes a lot easier with us.
+                        </p>
+                        <div class="socials">
+                            <a href="#!">
+                                <img
+                                    src="./assets/icons/twitter.svg"
+                                    alt="twitter"
+                                />
+                            </a>
+                            <a href="#!">
+                                <img
+                                    src="./assets/icons/fb.svg"
+                                    alt="facebook"
+                                />
+                            </a>
+                            <a href="#!">
+                                <img
+                                    src="./assets/icons/linked_in.svg"
+                                    alt="linked_in"
+                                />
+                            </a>
+                            <a href="#!">
+                                <img
+                                    src="./assets/icons/instagram.svg"
+                                    alt="instagram"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h3 class="title">Company</h3>
+                        <ul class="list">
+                            <li>
+                                <a href="#!">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#!">Features</a>
+                            </li>
+                            <li>
+                                <a href="#!">Our Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#!">Latest News</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h3 class="title">Support</h3>
+                        <ul class="list">
+                            <li>
+                                <a href="#!">FAQ’s</a>
+                            </li>
+                            <li>
+                                <a href="#!">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="#!">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#!">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h3 class="title">Address</h3>
+                        <ul class="list">
+                            <li>
+                                <a href="#!">
+                                    <strong>Location:</strong> 27 Division St,
+                                    New York, NY 10002, USA
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!">
+                                    <strong>Email:</strong> email@gmail.com
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!">
+                                    <strong>Phone:</strong> + 000 1234 567 890
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright ©2022 webdesign.gdn All rights reserved</p>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
