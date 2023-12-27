@@ -216,7 +216,7 @@
     }
 
     .blog .blog-list {
-        display: grid;
+        /* display: grid; */
     }
 
     .blog .item {
